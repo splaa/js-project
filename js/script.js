@@ -1,17 +1,12 @@
-"use strict";
-var a  = 15
-let number = 5;
-const leftBorderWith = 1;
-number = 10;
-number = 12;
-number = 13;
+let a = 6
+let b = 'Hello'
+console.log(a);
 
-console.log(number);
+let inputIn = document.querySelector('.input-in')
+let button = document.querySelector('button')
 
-
-const obj =  {
-    a:50
-
+button.onclick = function () {
+    console.log(+inputIn.value);
+    
+    inputIn.value = ''
 }
-
-console.log(obj.a = 15);
